@@ -104,7 +104,7 @@ function initReader() {
     else document.body.style.backgroundColor = "white"
 
     loadCss("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700")
-    loadCss("https://cdn.materialdesignicons.com/3.0.39/css/materialdesignicons.min.css")
+    loadCss("https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.8.55/css/materialdesignicons.min.css")
     
     // Load vue
     Vue.config.productionTip = false
