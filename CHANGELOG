@@ -1,3 +1,13 @@
+### V2.2.14
+  Fixes:
+    - Changed cdn for material icons due to an outage (Thanks to @GameBurrow)
+  
+  Mirror Fixes:
+    - Scan Trad (https://scantrad.net)
+  
+  New Mirrors:
+    - Read Comic Online (https://readcomiconline.to) - Note ths site has periodic captchas which cause amr to fail, this cannot be avoided
+
 ### V2.2.13
 New Mirrors:
   - Twilight Scans (https://twilightscans.com/)

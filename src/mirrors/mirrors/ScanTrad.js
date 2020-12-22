@@ -31,9 +31,10 @@ if (typeof registerMangaObject === 'function') {
     
         getInformationsFromCurrentPage: async function (doc, curUrl) {
             var mg = $("#topLEL a.tl-titre", doc)
+            let mangaLink = mg.attr('href')
             return {
                 "name": mg.text(),
-                "currentMangaURL": "https://scantrad.net/" + mg.attr("href"),
+                "currentMangaURL": mangaLink.includes('https://scantrad.net') ? mangaLink : 'https://scantrad.net' + mangaLink,
                 "currentChapterURL": "https://scantrad.net/" + $("#selectCh option:selected", doc).val()
             }
         },
